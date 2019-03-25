@@ -38,4 +38,40 @@ $bln_sk = $arr_nosk[2];
 echo "DariNomor SK : ".$nosk;
 echo "<br>";
 echo "Bulan Terbit SK :".$nmr_terbang;
+
+//contoh Implode 1
+$bahan = ["Garam", "Cabe", "Bawang Merah", "Bawah Putih", "Gula Merah"];
+$rujak = implode (", ",$bahan);
+echo "Sambal Rujak Berbahan :".$rujak;
+echo "<br>";
+
+//contoh Implode 2
+$telp = ["0274", "391019"];
+$no_telp = implode ("-",$telp);
+echo "Nomor Telepon :".$no_telp;
+echo "<br>";
+
+//contoh Implode 3
+$acak ["3", "4", "7", "1", "6", "9"];
+$no_undian = implode (" ",$acak)
+echo "Nomor Undian :".$no_undian;
+echo "<br>";
+
+//contoh Implode 3
+$acak ["3", "4", "7", "1", "6", "9"];
+$no_undian = implode (" ",$acak)
+echo "Nomor Undian :".$no_undian;
+echo "<br>";
+
+//contoh Implode 4
+$hewan ["Sapi", "Kerbau", "Kuda", "Gajah", "Jerapah"];
+$kakiempat = implode ("|",$hewan)
+echo "Nomor Undian :".$kakiempat;
+echo "<br>";
+
+//contoh Implode 5
+$tersangka ["Andri", "Bagong", "Jarko", "Sanipo"];
+$alias = implode ("/",$tersangka)
+echo "Nama Tersangka / Alias :".$alias;
+echo "<br>";
 ?>
